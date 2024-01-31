@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:lottie/lottie.dart';
 import 'package:tic_tac_toe_final/AskingPage.dart';
+import 'package:tic_tac_toe_final/on_board_screen.dart';
 
 void main() => runApp(const MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -27,7 +28,7 @@ class _HomeState extends State<Home> {
     super.initState();
     Timer(const Duration(seconds: 4), () {
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const AskingPage()));
+          context, MaterialPageRoute(builder: (context) => const OnBoardScreen()));
     });
   }
 
