@@ -1,9 +1,7 @@
-# tic_tac_toe_final
-
-A new Flutter project.
+# Tic Tac Tangle
+Its Mine Internship Project at Playbees Technologies.
 
 ## Getting Started
-
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
